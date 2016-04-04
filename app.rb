@@ -26,8 +26,13 @@ class App < Sinatra::Base
   get '/auth/:provider/callback' do
     request.env['omniauth.auth'].info.to_hash.inspect
     "<h1>Signed in!</h1>
+    <p>Uid:
     <pre>#{request.env['omniauth.auth'].uid}</pre>
+    <p>Again:
+    <pre>#{request.env['omniauth.auth'].uid}</pre>
+    <p>Info:
     <pre>#{request.env['omniauth.auth'].info.to_hash.inspect}</pre>
+    <p>Extra:
     <pre>#{request.env['omniauth.auth'].extra.to_hash.inspect}</pre>
     "
   end

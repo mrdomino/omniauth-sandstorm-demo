@@ -170,8 +170,11 @@ omniauth-sandstorm/.git/HEAD
 omniauth-sandstorm/.git/config
 omniauth-sandstorm/.git/index
 omniauth-sandstorm/lib
+omniauth-sandstorm/lib/omniauth
+omniauth-sandstorm/lib/omniauth-sandstorm
 omniauth-sandstorm/lib/omniauth-sandstorm.rb
 omniauth-sandstorm/lib/omniauth-sandstorm/version.rb
+omniauth-sandstorm/lib/omniauth/strategies
 omniauth-sandstorm/lib/omniauth/strategies/sandstorm.rb
 omniauth-sandstorm/omniauth-sandstorm.gemspec
 proc/cpuinfo
@@ -189,8 +192,8 @@ usr/lib/libc-2.23.so
 usr/lib/libc.so.6
 usr/lib/libcrypt-2.23.so
 usr/lib/libcrypt.so.1
-usr/lib/libcrypto.so.35
-usr/lib/libcrypto.so.35.0.0
+usr/lib/libcrypto.so.37
+usr/lib/libcrypto.so.37.0.0
 usr/lib/libdl-2.23.so
 usr/lib/libdl.so.2
 usr/lib/libm-2.23.so
@@ -219,8 +222,8 @@ usr/lib/librt-2.23.so
 usr/lib/librt.so.1
 usr/lib/libruby.so.2.3
 usr/lib/libruby.so.2.3.0
-usr/lib/libssl.so.35
-usr/lib/libssl.so.35.0.0
+usr/lib/libssl.so.38
+usr/lib/libssl.so.38.0.0
 usr/lib/libz.so.1
 usr/lib/libz.so.1.2.8
 usr/lib/ruby/2.3.0
